@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap');
+
+.container{
+    margin: auto;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container .div_1{
+    float: left;
+    
+}
+.container .div_2{
+    
+    float:left;
+}
+.container .div_1 span{
+    
+    font-size: 40pt;
+    font-weight: bold;
+    position: relative;
+    font-family: 'Fredoka', sans-serif;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.container .div_2 span{
+    
+    font-size: 40pt;
+    font-weight: bold;
+    position: relative;
+    left: 35px;
+    font-family: 'Fredoka', sans-serif;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+
+
+
+
+
+.container span::before{
+    content: var(--l);
+    position:absolute;
+    transform: scale(1.1);
+    filter: blur(15px);
+}
+.container span::after{
+    content: var(--l);
+    position: absolute;
+    top :80%;
+    left: 0;
+    filter: blur(30px);
+    transform: rotateX(50deg);
+
+}
+.container span:hover{
+    filter: contrast(250%);
+
+}
+.container span:nth-child(1){
+ color: #00bef8;
+}
+.container span:nth-child(2){
+    color:#ff0697
+
+}
+.container span:nth-child(3){
+    color:#ff4d00
+
+
+}
+.container span:nth-child(4){
+    color:#ffe600
+}
+
+.container span:nth-child(5){
+    color: #00bef8;
+   }
+   .container span:nth-child(6){
+       color:#ff0697
+   
+   }
+   .container span:nth-child(7){
+       color:#ff4d00
+   
+   }
+       
+
+   .container span:nth-child(8){
+       color:#ffe600
+   }
+   .container span:nth-child(9){
+    color: #00bef8;
+   }
+   .container span:nth-child(10){
+       color:#ff0697
+   
+   }
+   .container span:nth-child(11){
+       color:#ff4d00
+   
+   
+   }
+   .container span:nth-child(12){
+       color:#ffe600
+   }
+   .container span:nth-child(13){
+    color: #00bef8;
+   }
+   .container span:nth-child(14){
+       color:#ff0697
+   
+   }
+   .container span:nth-child(15){
+       color:#ff4d00
+   
+   
+   }
+   .container span:nth-child(16){
+       color:#ffe600
+   }
+   .container span:nth-child(17){
+    color:#ffe600
+}
+@media screen and (max-width: 760px){
+    .container .div_1 span{
+    
+        font-size: 18pt;
+    }
+    
+    .container .div_2 span{
+        
+        font-size: 18pt;
+        left: 18px;
+
+    }
+    
+}
